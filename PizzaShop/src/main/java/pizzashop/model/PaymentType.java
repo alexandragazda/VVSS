@@ -1,5 +1,5 @@
 package pizzashop.model;
 
-public enum PaymentType {
+public enum PaymentType{
     Cash, Card
 }

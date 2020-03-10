@@ -1,0 +1,56 @@
+
+C
+java:S1604"(Make this anonymous inner class a lambda(ωλ²¥ώÿÿÿÿ
+g
+java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(ΝΞ§ώÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΝΞ§ώÿÿÿÿ
+J
+java:S3655""5Call "result.isPresent()" before accessing the value.(Όύ¦7
+V	java:S125#"<This block of commented-out lines of code should be removed.(‘ϋÿÿÿÿ
+>
+java:S1148"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ
+B
+java:S1166"%Either log or rethrow this exception.(ο­£Δ8›γω¥.
+c
+java:S1106"AMove this left curly brace to the beginning of next line of code.(υβ©αÿÿÿÿÿ8›γω¥.
+c
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ΝΞ§ώÿÿÿÿ8›γω¥.
+c
+java:S1106"AMove this left curly brace to the beginning of next line of code.(΅»Άόωÿÿÿÿ8›γω¥.
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ο­£Δ8›γω¥.
+c
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ωλ²¥ώÿÿÿÿ8›γω¥.
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ΛΩ8›γω¥.
+]
+java:S1106""AMove this left curly brace to the beginning of next line of code.(Όύ¦78›γω¥.
+c
+java:S1106'"AMove this left curly brace to the beginning of next line of code.(λ΅¦κωÿÿÿÿ8›γω¥.
+^
+java:S1106*"AMove this left curly brace to the beginning of next line of code.(αΆ–¬8›γω¥.
+f
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(ΝΞ§ώÿÿÿÿ8›γω¥.
+a
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(»Λμ²8›γω¥.
+a
+java:S1120"DMake this line start after 6 spaces to indent the code consistently.(ÿ‡ύ8›γω¥.
+f
+java:S1120"DMake this line start after 6 spaces to indent the code consistently.(€ΙΤ…ύÿÿÿÿ8›γω¥.
+b
+java:S1120"EMake this line start after 14 spaces to indent the code consistently.(ΛΩ8›γω¥.
+g
+java:S1120$"EMake this line start after 18 spaces to indent the code consistently.(Λδ…±ψÿÿÿÿ8›γω¥.
+b
+java:S1120("EMake this line start after 18 spaces to indent the code consistently.(ν‘Εώ8›γω¥.
+b
+java:S1120+"EMake this line start after 18 spaces to indent the code consistently.(ν‘Εώ8›γω¥.
+g	java:S103 "KSplit this 147 characters long line (which is greater than 120 authorized).(¶§β…8›γω¥.
+;
+java:S1451"&Add or update the header of this file.8›γω¥.
+O
+java:S1108"2Move this "catch" keyword to a new dedicated line.(ο­£Δ8›γω¥.
+j
+java:S1107'"HMove this "else" on the same line that the previous closing curly brace.(λ΅¦κωÿÿÿÿ8›γω¥.
+e
+java:S1107*"HMove this "else" on the same line that the previous closing curly brace.(αΆ–¬8›γω¥.
