@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2b755e9-5e0c-4feb-8bf6-9a26b85ae76e" name="Default Changelist" comment="" />
+    <list default="true" id="e2b755e9-5e0c-4feb-8bf6-9a26b85ae76e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/controller/KitchenGUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/KitchenGUIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/model/PaymentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/PaymentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/repository/MenuRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/MenuRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentAlert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentAlert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/payments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/repository/MenuRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/repository/MenuRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/PaymentAlert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/service/PaymentAlert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/PizzaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/service/PizzaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,10 +37,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -33,9 +58,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CinemaBookingSystem/cinema-server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -102,12 +128,33 @@
       <workItem from="1581852558000" duration="14895000" />
       <workItem from="1582489804321" duration="50000" />
       <workItem from="1583311175082" duration="371000" />
-      <workItem from="1583497008217" duration="364000" />
+      <workItem from="1583497008217" duration="605000" />
+      <workItem from="1583507183804" duration="769000" />
+      <workItem from="1583754395008" duration="7692000" />
+      <workItem from="1583846375422" duration="1354000" />
+      <workItem from="1583848112239" duration="2065000" />
+      <workItem from="1583850233662" duration="148000" />
+      <workItem from="1583850398488" duration="408000" />
+      <workItem from="1583851011929" duration="976000" />
+      <workItem from="1583852007309" duration="4104000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="271" y="0" key="#PizzaShop_[exec:java]" timestamp="1581688049207">

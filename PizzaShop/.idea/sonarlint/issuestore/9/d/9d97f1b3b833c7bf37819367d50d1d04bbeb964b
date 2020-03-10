@@ -1,0 +1,106 @@
+
+T
+java:S1128"9Remove this unused import 'javafx.scene.text.FontWeight'.(„­ήώÿÿÿÿ
+—
+java:S11868"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚–‡
+K
+java:S1128"5Remove this unused import 'javafx.scene.paint.Color'.(Οξ£ΰ
+K
+java:S1128"5Remove this unused import 'javafx.stage.PopupWindow'.(Ο
+P
+java:S1128"5Remove this unused import 'javafx.scene.layout.VBox'.(νΖαΒωÿÿÿÿ
+L
+java:S1128"6Remove this unused import 'javafx.scene.shape.Circle'.(ΓΑς«
+N
+java:S1128"3Remove this unused import 'javafx.fxml.FXMLLoader'.(ΐ‡τ³ϊÿÿÿÿ
+L
+java:S1128"7Remove this unused import 'javafx.scene.control.Alert'.(ΚΗκ:
+T
+java:S1128">Remove this unused import 'javafx.scene.paint.Color.DARKBLUE'.(”ƒπ±
+s	java:S109E"RAssign this magic number 2 to a well-named constant, and use the constant instead.(…Ω—Χϊÿÿÿÿ8γω¥.
+s	java:S109I"RAssign this magic number 3 to a well-named constant, and use the constant instead.(ξ‹ª—όÿÿÿÿ8γω¥.
+n	java:S109M"RAssign this magic number 4 to a well-named constant, and use the constant instead.(ξª°β8γω¥.
+n	java:S109Q"RAssign this magic number 5 to a well-named constant, and use the constant instead.(»ϊζ–8γω¥.
+n	java:S109U"RAssign this magic number 6 to a well-named constant, and use the constant instead.(υΔ—¦8γω¥.
+s	java:S109Y"RAssign this magic number 7 to a well-named constant, and use the constant instead.(Χ¶«ψÿÿÿÿ8γω¥.
+m	java:S109]"RAssign this magic number 8 to a well-named constant, and use the constant instead.(Ηθ8γω¥.
+t	java:S109|"SAssign this magic number 15 to a well-named constant, and use the constant instead.(™•λώÿÿÿÿ8γω¥.
+c
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¶›ΏΈψÿÿÿÿ8γω¥.
+^
+java:S11068"AMove this left curly brace to the beginning of next line of code.(‚–‡8γω¥.
+c
+java:S1106:"AMove this left curly brace to the beginning of next line of code.(Αƒϊώϋÿÿÿÿ8γω¥.
+c
+java:S1106?"AMove this left curly brace to the beginning of next line of code.(Ό—³ωÿÿÿÿ8γω¥.
+c
+java:S1106d"AMove this left curly brace to the beginning of next line of code.(·ςώÿÿÿÿ8γω¥.
+f
+java:S5612f"DReduce this lambda expression number of lines from 26 to at most 10.(΅¦±νώÿÿÿÿ8γω¥.
+a
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(ί”ώ“8γω¥.
+a
+java:S1120;"DMake this line start after 4 spaces to indent the code consistently.(ά’8γω¥.
+f
+java:S1120@"DMake this line start after 4 spaces to indent the code consistently.(‰ώÿÿÿÿ8γω¥.
+g
+java:S1120A"EMake this line start after 10 spaces to indent the code consistently.(»†·ύÿÿÿÿ8γω¥.
+g
+java:S1120E"EMake this line start after 10 spaces to indent the code consistently.(…Ω—Χϊÿÿÿÿ8γω¥.
+g
+java:S1120I"EMake this line start after 10 spaces to indent the code consistently.(ξ‹ª—όÿÿÿÿ8γω¥.
+b
+java:S1120M"EMake this line start after 10 spaces to indent the code consistently.(ξª°β8γω¥.
+b
+java:S1120Q"EMake this line start after 10 spaces to indent the code consistently.(»ϊζ–8γω¥.
+b
+java:S1120U"EMake this line start after 10 spaces to indent the code consistently.(υΔ—¦8γω¥.
+g
+java:S1120Y"EMake this line start after 10 spaces to indent the code consistently.(Χ¶«ψÿÿÿÿ8γω¥.
+a
+java:S1120]"EMake this line start after 10 spaces to indent the code consistently.(Ηθ8γω¥.
+f
+java:S1120f"DMake this line start after 4 spaces to indent the code consistently.(΅¦±νώÿÿÿÿ8γω¥.
+g
+java:S1120g"EMake this line start after 15 spaces to indent the code consistently.(ƒΡΐ·ωÿÿÿÿ8γω¥.
+g	java:S103p"KSplit this 134 characters long line (which is greater than 120 authorized).(Α΅Έ8γω¥.
+l	java:S103s"KSplit this 125 characters long line (which is greater than 120 authorized).(ήεό¦ϋÿÿÿÿ8γω¥.
+l	java:S103u"KSplit this 144 characters long line (which is greater than 120 authorized).(¤ΫκΎύÿÿÿÿ8γω¥.
+l	java:S103v"KSplit this 132 characters long line (which is greater than 120 authorized).(ύΑ‰°ώÿÿÿÿ8γω¥.
+g	java:S103x"KSplit this 129 characters long line (which is greater than 120 authorized).(δΊϋ8γω¥.
+;
+java:S1451"&Add or update the header of this file.8γω¥.
+R
+java:S2039-"5Explicitly declare the visibility for "table1Orders".(£κÿΓ8γω¥.
+R
+java:S2039."5Explicitly declare the visibility for "table2Orders".(΄―Ϊ8γω¥.
+W
+java:S2039/"5Explicitly declare the visibility for "table3Orders".(Ύ–ΪΔϋÿÿÿÿ8γω¥.
+W
+java:S20390"5Explicitly declare the visibility for "table4Orders".(‚βμιϋÿÿÿÿ8γω¥.
+R
+java:S20391"5Explicitly declare the visibility for "table5Orders".(Χ‹β8γω¥.
+R
+java:S20392"5Explicitly declare the visibility for "table6Orders".(¬–Β‚8γω¥.
+W
+java:S20393"5Explicitly declare the visibility for "table7Orders".(ΐΊΛϊÿÿÿÿ8γω¥.
+W
+java:S20394"5Explicitly declare the visibility for "table8Orders".(ιόϊκÿÿÿÿÿ8γω¥.
+R
+java:S20396"0Explicitly declare the visibility for "service".(Μ·ΔΣÿÿÿÿÿ8γω¥.
+=
+java:S2211@"Specify a type for: 'event'(‰ώÿÿÿÿ8γω¥.
+=
+java:S2211D"Specify a type for: 'event'(²Λυϊÿÿÿÿ8γω¥.
+8
+java:S2211H"Specify a type for: 'event'(΄–π†8γω¥.
+8
+java:S2211L"Specify a type for: 'event'(―ΖΙϋ8γω¥.
+=
+java:S2211P"Specify a type for: 'event'(Α¤χϋÿÿÿÿ8γω¥.
+8
+java:S2211T"Specify a type for: 'event'(ΈΝωΔ8γω¥.
+8
+java:S2211X"Specify a type for: 'event'(χ£υ8γω¥.
+=
+java:S2211\"Specify a type for: 'event'(§ύ‘αόÿÿÿÿ8γω¥.
