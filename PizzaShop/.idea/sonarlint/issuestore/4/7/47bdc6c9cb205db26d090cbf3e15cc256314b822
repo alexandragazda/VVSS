@@ -1,37 +1,3 @@
 
-.	java:S121!"Missing curly brace.(Å…ñÂùÿÿÿÿ
-W
-java:S1106"AMove this left curly brace to the beginning of next line of code.(÷±Ç
-\
-java:S1106"AMove this left curly brace to the beginning of next line of code.(Îı¥Áüÿÿÿÿ
-)	java:S121#"Missing curly brace.(øšÑ
-\
-java:S1106"AMove this left curly brace to the beginning of next line of code.( ™óğşÿÿÿÿ
-X
-java:S4551#"BUse "==" to perform this enum comparison instead of using "equals"(øšÑ
-n	java:S122!"TAt most one statement is allowed per line, but 2 statements were found on this line.(Å…ñÂùÿÿÿÿ
-V
-java:S1106""AMove this left curly brace to the beginning of next line of code.(ğûè=
-Y
-java:S1155!">Use isEmpty() to check whether the collection is empty or not.(Å…ñÂùÿÿÿÿ
-\
-java:S1106"AMove this left curly brace to the beginning of next line of code.(İú¢ùøÿÿÿÿ
-Z
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.(„„Å
-Z
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.(÷±Ç
-_
-java:S1120"DMake this line start after 2 spaces to indent the code consistently.(†ë›Íşÿÿÿÿ
-Z
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ÁÕ
-W
-java:S1106"AMove this left curly brace to the beginning of next line of code.(ÁÕ
-7	java:S818"#Upper-case this literal "f" suffix.(…ò¶~
-Y
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.(…ò¶~
-_
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ëÅì’ùÿÿÿÿ
-W
-java:S1106"AMove this left curly brace to the beginning of next line of code.(–—î¾
-Z
-java:S1120#"DMake this line start after 6 spaces to indent the code consistently.(øšÑ
+?
+java:S1309"#Suppressing warnings is not allowed(ª‚×t8şË°ÌŒ.

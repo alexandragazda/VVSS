@@ -1,63 +1,4 @@
 
-W
-java:S1106	"AMove this left curly brace to the beginning of next line of code.(Çç£
-\
-java:S1106"AMove this left curly brace to the beginning of next line of code.(ı×ñÄûÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Òúº‘
-G
-java:S11081"1Move this "else" keyword to a new dedicated line.(£”¼Æ
-Z
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ú•€Ë
-W
-java:S1106"AMove this left curly brace to the beginning of next line of code.(Ù”ú
-K
-java:S3655."5Call "result.isPresent()" before accessing the value.(îçĞµ
-S	java:S106!"9Replace this use of System.out or System.err by a logger.(‡à¼Óøÿÿÿÿ
-W
-java:S11066"AMove this left curly brace to the beginning of next line of code.(å¥‡
-N	java:S106""9Replace this use of System.out or System.err by a logger.(ú•€Ë
-Z
-java:S1120 "DMake this line start after 4 spaces to indent the code consistently.(ú•€Ë
-Z
-java:S1120/"DMake this line start after 6 spaces to indent the code consistently.(›ò½¦
-N	java:S106 "9Replace this use of System.out or System.err by a logger.(ú•€Ë
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ú•€Ë
-Z
-java:S11207"DMake this line start after 6 spaces to indent the code consistently.(Œ¾£
-W
-java:S11064"AMove this left curly brace to the beginning of next line of code.(—ˆç
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ú•€Ë
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ç”ŠÎûÿÿÿÿ
-_
-java:S11202"DMake this line start after 6 spaces to indent the code consistently.(Ö‡§úÿÿÿÿ
-q
-java:S1192"[Define a constant instead of duplicating this literal "--------------------------" 6 times.(ú•€Ë
-N	java:S106"9Replace this use of System.out or System.err by a logger.(á•î˜
-W
-java:S1106"AMove this left curly brace to the beginning of next line of code.(Ú°ÇË
-_
-java:S1120%"DMake this line start after 4 spaces to indent the code consistently.(íš™ùÿÿÿÿ
-Z
-java:S11205"DMake this line start after 6 spaces to indent the code consistently.(Œ¾£
-W
-java:S1106"AMove this left curly brace to the beginning of next line of code.(İ Ô—
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ú•€Ë
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ÏúËá
-G
-java:S11084"1Move this "else" keyword to a new dedicated line.(—ˆç
-G
-java:S11086"1Move this "else" keyword to a new dedicated line.(å¥‡
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ú•€Ë
-Z
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ÜŒˆ’
-Z
-java:S1120
-"DMake this line start after 2 spaces to indent the code consistently.(‚…è
-W
-java:S11061"AMove this left curly brace to the beginning of next line of code.(£”¼Æ
-Z
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ú•€Ë
-W
-java:S1106."AMove this left curly brace to the beginning of next line of code.(îçĞµ
-\
-java:S1106$"AMove this left curly brace to the beginning of next line of code.(¹ò·ğúÿÿÿÿ
+E
+java:S1309
+"#Suppressing warnings is not allowed(÷å²¨ıÿÿÿÿ8ºßªÌŒ.

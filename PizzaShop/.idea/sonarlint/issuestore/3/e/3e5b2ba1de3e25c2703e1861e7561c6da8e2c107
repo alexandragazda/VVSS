@@ -1,3 +1,5 @@
 
-c
-java:S1106"AMove this left curly brace to the beginning of next line of code.(µ¿ú´ıÿÿÿÿ8ìæŒ¦Œ.
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¦îìïúÿÿÿÿ8ÓñªŒ.
+@
+java:S1309"#Suppressing warnings is not allowed(’ÿºá8À²ôËŒ.
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¦îìïúÿÿÿÿ8ÓñªŒ.

@@ -8,6 +8,7 @@ import pizzashop.repository.PaymentRepository;
 
 import java.util.List;
 
+@SuppressWarnings({"java:S1106","java:S1120"})
 public class PizzaService {
 
     private MenuRepository menuRepo;
@@ -28,12 +29,15 @@ public class PizzaService {
     }
 
     public double getTotalAmount(PaymentType type){
-        double total=0.0f;
+        double total=0.0F;
         List<Payment> paymentList=getPayments();
-        if ((paymentList==null) ||(paymentList.size()==0)) return total;
+        if (paymentList.isEmpty()){
+            return total;
+        }
         for (Payment p:paymentList){
-            if (p.getType().equals(type))
-                total+=p.getAmount();
+            if (p.getType()==type) {
+                total += p.getAmount();
+            }
         }
         return total;
     }

@@ -2,6 +2,7 @@ package pizzashop.model;
 
 
 
+@SuppressWarnings({"java:S1106","java:S1120"})
 public class Payment {
 
     private int tableNumber;

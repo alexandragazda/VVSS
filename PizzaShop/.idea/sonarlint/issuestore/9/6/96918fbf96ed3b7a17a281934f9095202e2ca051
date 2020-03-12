@@ -1,45 +1,3 @@
 
-c
-java:S1106"AMove this left curly brace to the beginning of next line of code.(Ş¨óıøÿÿÿÿ8ãù¥Œ.
-]
-java:S1106."AMove this left curly brace to the beginning of next line of code.(ïÆšm8ãù¥Œ.
-a
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.(°ú­×8ãù¥Œ.
-f
-java:S11203"DMake this line start after 4 spaces to indent the code consistently.(³è½¾úÿÿÿÿ8ãù¥Œ.
-f
-java:S1120"DMake this line start after 2 spaces to indent the code consistently.(ºË±ÿÿÿÿÿ8ãù¥Œ.
-f
-java:S1120/"DMake this line start after 4 spaces to indent the code consistently.(óæ³ıÿÿÿÿ8ãù¥Œ.
-]
-java:S1106"AMove this left curly brace to the beginning of next line of code.(„æà8ãù¥Œ.
-^
-java:S1106*"AMove this left curly brace to the beginning of next line of code.(øë¿è8ãù¥Œ.
-c
-java:S1106&"AMove this left curly brace to the beginning of next line of code.(¶œ¡Öúÿÿÿÿ8ãù¥Œ.
-^
-java:S1106"AMove this left curly brace to the beginning of next line of code.(©©ó›8ãù¥Œ.
-a
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ºëñê8ãù¥Œ.
-f
-java:S1120'"DMake this line start after 4 spaces to indent the code consistently.(Ä½„üÿÿÿÿ8ãù¥Œ.
-a
-java:S1120+"DMake this line start after 4 spaces to indent the code consistently.(ãîü—8ãù¥Œ.
-c
-java:S1106"AMove this left curly brace to the beginning of next line of code.(ò¦ÙËıÿÿÿÿ8ãù¥Œ.
-f
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ØæÒéÿÿÿÿÿ8ãù¥Œ.
-c
-java:S1106"AMove this left curly brace to the beginning of next line of code.(ô˜àøşÿÿÿÿ8ãù¥Œ.
-a
-java:S1120#"DMake this line start after 4 spaces to indent the code consistently.(şü„ì8ãù¥Œ.
-f
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.(•ÉÛüÿÿÿÿ8ãù¥Œ.
-^
-java:S1106""AMove this left curly brace to the beginning of next line of code.(åê°†8ãù¥Œ.
-a
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.(½•é8ãù¥Œ.
-c
-java:S11062"AMove this left curly brace to the beginning of next line of code.(İûşÿÿÿÿ8ãù¥Œ.
-c
-java:S1106"AMove this left curly brace to the beginning of next line of code.(êæúŠûÿÿÿÿ8ãù¥Œ.
+?
+java:S1309"#Suppressing warnings is not allowed(ª‚×t8ÀöÍËŒ.
