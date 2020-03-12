@@ -2,32 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2b755e9-5e0c-4feb-8bf6-9a26b85ae76e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docs/Lab01/Lab01_ReviewReport.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Docs/Lab01/Lab01_ReviewReport.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e5b2ba1de3e25c2703e1861e7561c6da8e2c107" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e5b2ba1de3e25c2703e1861e7561c6da8e2c107" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47bdc6c9cb205db26d090cbf3e15cc256314b822" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47bdc6c9cb205db26d090cbf3e15cc256314b822" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/8520f08e22c256d40d132e4ce1d91ee5494663f3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/8520f08e22c256d40d132e4ce1d91ee5494663f3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/862d4eb199283e0e9c78f504b07ec47424c924ff" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/862d4eb199283e0e9c78f504b07ec47424c924ff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/902001140ed6ee8dd55076f5d2572971ee237995" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/902001140ed6ee8dd55076f5d2572971ee237995" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/9593d6c2aae59b75f1c5ffdb8bb3a549a0c0d8d6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/9593d6c2aae59b75f1c5ffdb8bb3a549a0c0d8d6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96918fbf96ed3b7a17a281934f9095202e2ca051" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96918fbf96ed3b7a17a281934f9095202e2ca051" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d97f1b3b833c7bf37819367d50d1d04bbeb964b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d97f1b3b833c7bf37819367d50d1d04bbeb964b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0e48405f0ebddab4ecea2ba722dcd0546d61cea" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0e48405f0ebddab4ecea2ba722dcd0546d61cea" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d710b77068e128f035d497fc3878605971f031b5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d710b77068e128f035d497fc3878605971f031b5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef6998620bd1015c5e4bddc19da8b0331cb111bf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef6998620bd1015c5e4bddc19da8b0331cb111bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f113d329464de76aa1074faec3e0f9b726224347" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f113d329464de76aa1074faec3e0f9b726224347" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f88a69fdfce80aab608fa2398a93044f03454ca7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f88a69fdfce80aab608fa2398a93044f03454ca7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/ClassDiagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/initial/ClassDiagram.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/controller/KitchenGUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/KitchenGUIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/controller/MainGUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/MainGUIController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/gui/KitchenGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/gui/KitchenGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/gui/OrdersGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/gui/OrdersGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/model/MenuDataModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/MenuDataModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/Payment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/model/PaymentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/PaymentType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/repository/MenuRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/MenuRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentAlert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentAlert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/payments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/MainGUIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/MainGUIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/gui/KitchenGUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/gui/KitchenGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/gui/KitchenGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/gui/OrdersGUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/gui/OrdersGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/gui/OrdersGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/model/MenuDataModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/model/MenuDataModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/model/PaymentType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/model/PaymentType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/repository/MenuRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/repository/MenuRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/repository/PaymentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/repository/PaymentRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/PaymentAlert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/service/PaymentAlert.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/PizzaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/service/PizzaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,6 +85,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1XnhPHuHkT7dDVekFl0PHbtY2Gs" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
@@ -56,12 +96,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_ISSUES_SPLIT_PROPORTION" value="0.42896175" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CinemaBookingSystem/cinema-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -73,18 +115,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\PizzaShop" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="PizzaShop [exec:java]" type="MavenRunConfiguration" factoryName="Maven">
@@ -137,6 +167,9 @@
       <workItem from="1583850398488" duration="408000" />
       <workItem from="1583851011929" duration="976000" />
       <workItem from="1583852007309" duration="4104000" />
+      <workItem from="1583857505751" duration="3036000" />
+      <workItem from="1583919523166" duration="21629000" />
+      <workItem from="1584011398847" duration="3040000" />
     </task>
     <servers />
   </component>
@@ -161,10 +194,11 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="271" y="0" key="#PizzaShop_[exec:java]/0.0.1280.680@0.0.1280.680" timestamp="1581688049207" />
-    <state x="447" y="35" key="#com.intellij.ide.util.MemberChooser" timestamp="1581861630816">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="536" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1583858819739">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="447" y="35" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1581861630816" />
+    <state x="536" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583858819739" />
     <state x="352" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581861136752">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -173,26 +207,35 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="372" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1581858762273" />
-    <state x="422" y="100" key="FileChooserDialogImpl" timestamp="1581865432079">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="506" y="121" key="FileChooserDialogImpl" timestamp="1584013086415">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="422" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581865432079" />
-    <state width="1237" height="266" key="GridCell.Tab.0.bottom" timestamp="1581869350247">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="506" y="121" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584013086415" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584014854218">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1237" height="266" key="GridCell.Tab.0.center" timestamp="1581869350247">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584014854218" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584014854218">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1237" height="266" key="GridCell.Tab.0.left" timestamp="1581869350247">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584014854218" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584014854218">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1237" height="266" key="GridCell.Tab.0.right" timestamp="1581869350247">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584014854218" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584014854218">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584014854218" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1583939632489">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583939632489" />
     <state x="351" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1582489803750">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

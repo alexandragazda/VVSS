@@ -1,73 +1,3 @@
 
-Z
-java:S2147 "DCombine this catch with the one at line 30, which has the same body.(ο­£Δ
-a
-java:S1120"DMake this line start after 6 spaces to indent the code consistently.(γΘ¦8γω¥.
-a
-java:S1120("DMake this line start after 6 spaces to indent the code consistently.(¥Ήο8ƒ½–¦.
-b
-java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(γΘ¦
-^
-java:S1106"AMove this left curly brace to the beginning of next line of code.(‹±ΓΖ8γω¥.
-f
-java:S1120!"DMake this line start after 6 spaces to indent the code consistently.(€ΙΤ…ύÿÿÿÿ8γω¥.
-J
-java:S2208".Explicitly import the specific classes needed.(¬›γD8γω¥.
-
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(›φΪϋÿÿÿÿ
-B
-java:S1166"%Either log or rethrow this exception.(‹±ΓΖ8γω¥.
-c
-java:S1106"AMove this left curly brace to the beginning of next line of code.(΅»Άόωÿÿÿÿ8γω¥.
-Z
-java:S3032"=Use "Thread.currentThread().getContextClassLoader()" instead.(ωο‰ 8γω¥.
-^
-java:S11061"AMove this left curly brace to the beginning of next line of code.(ρΛ8γω¥.
-f
-java:S1120"DMake this line start after 6 spaces to indent the code consistently.(€ΙΤ…ύÿÿÿÿ8γω¥.
-^
-java:S1106'"AMove this left curly brace to the beginning of next line of code.(Θ„„8ƒ½–¦.
-f
-java:S11202"DMake this line start after 4 spaces to indent the code consistently.(Ψ΅Ε–ÿÿÿÿÿ8γω¥.
-a
-java:S1120&"DMake this line start after 4 spaces to indent the code consistently.(ήμ†®8γω¥.
-\
-java:S1941&"?Move the declaration of "item" closer to the code that uses it.(ήμ†®8γω¥.
-^
-java:S1106
-"AMove this left curly brace to the beginning of next line of code.(χ‘ΫΆ8γω¥.
-a
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ωο‰ 8γω¥.
-f
-java:S1120"DMake this line start after 8 spaces to indent the code consistently.(€™“¤ύÿÿÿÿ8γω¥.
-c
-java:S1106%"AMove this left curly brace to the beginning of next line of code.(τΚΩϊÿÿÿÿ8γω¥.
-W	java:S1392"6Move this trailing comment on the previous empty line.(Ψ΅Ε–ÿÿÿÿÿ8γω¥.
-c
-java:S1106"AMove this left curly brace to the beginning of next line of code.(›φΪϋÿÿÿÿ8γω¥.
-c
-java:S1132'"FMove the "" string literal on the left side of this string comparison.(Θ„„8γω¥.
-O
-java:S1108"2Move this "catch" keyword to a new dedicated line.(‹±ΓΖ8γω¥.
-f
-java:S1120"DMake this line start after 2 spaces to indent the code consistently.(ΠÿΓώÿÿÿÿ8γω¥.
-G
-java:S2325%"%Make "getMenuItem" a "static" method.(τΚΩϊÿÿÿÿ8γω¥.
->
-java:S1148"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ
-N
-java:S1943"1Remove this use of constructor "FileReader(File)"(γΘ¦8γω¥.
-9
-java:S23843"Return a copy of "listMenu".(¨¥­β8γω¥.
-B
-java:S1166 "%Either log or rethrow this exception.(ο­£Δ8γω¥.
->
-java:S1148!"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ
-c
-java:S1106"AMove this left curly brace to the beginning of next line of code.(ά‘—ÿÿÿÿÿ8γω¥.
-c
-java:S1106"AMove this left curly brace to the beginning of next line of code.(Η½βύÿÿÿÿ8γω¥.
-^
-java:S1106 "AMove this left curly brace to the beginning of next line of code.(ο­£Δ8γω¥.
-O
-java:S1108 "2Move this "catch" keyword to a new dedicated line.(ο­£Δ8γω¥.
+E
+java:S1309"#Suppressing warnings is not allowed(ΓυΪιψÿÿÿÿ8ς›υΛ.
