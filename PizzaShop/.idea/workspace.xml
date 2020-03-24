@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2b755e9-5e0c-4feb-8bf6-9a26b85ae76e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e5b2ba1de3e25c2703e1861e7561c6da8e2c107" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e5b2ba1de3e25c2703e1861e7561c6da8e2c107" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/9593d6c2aae59b75f1c5ffdb8bb3a549a0c0d8d6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/9593d6c2aae59b75f1c5ffdb8bb3a549a0c0d8d6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0e48405f0ebddab4ecea2ba722dcd0546d61cea" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0e48405f0ebddab4ecea2ba722dcd0546d61cea" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/model/PaymentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/PaymentType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +18,7 @@
       <list>
         <option value="Class" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -53,20 +48,28 @@
     <property name="SONARLINT_ISSUES_SPLIT_PROPORTION" value="0.42896175" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\PizzaShop\src\main\resources\fxml" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="pizzashop.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\PizzaShop" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pizzashop.repository" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\PizzaShop" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\PizzaShop\src\main\resources\fxml" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -141,6 +144,7 @@
       <workItem from="1584463441958" duration="104000" />
       <workItem from="1584521564346" duration="9000" />
       <workItem from="1584523652240" duration="772000" />
+      <workItem from="1585058229677" duration="1491000" />
     </task>
     <servers />
   </component>
