@@ -29,3 +29,11 @@ a
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 Z
 *src/main/java/pizzashop/gui/OrdersGUI.java,a\d\adc62037ddba64615375bfbd8793cbbef77329f4
+f
+6src/main/java/pizzashop/model/validator/Validator.java,2\b\2b8574d7a8916e0693ebc50c55cb025834a1fd46
+p
+@src/main/java/pizzashop/model/validator/ValidationException.java,d\8\d85b41f962515bd36af5170706f388f455228e0a
+m
+=src/main/java/pizzashop/model/validator/PaymentValidator.java,6\b\6bc4547010161e4b18c1eb0183b56467d36ef27c
+e
+5src/test/java/pizzashop/service/PizzaServiceTest.java,f\4\f496bf34deff9b910e5c4b5fdd20fe2b239503b3

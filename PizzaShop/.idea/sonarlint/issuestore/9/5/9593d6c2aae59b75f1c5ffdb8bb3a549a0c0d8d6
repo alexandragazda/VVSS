@@ -1,5 +1,9 @@
 
-@
-java:S1309"#Suppressing warnings is not allowed(‚—ğ²8Ş—åÍŒ.
+a
+java:S5612v"DReduce this lambda expression number of lines from 15 to at most 10.(ïËÂµ8ÑáÙ‹‘.
 v
-java:S1820"ZRefactor this class so it has no more than 20 fields, rather than the 21 it currently has.(Éüß 8Á©†ÎŒ.
+java:S1820 "ZRefactor this class so it has no more than 20 fields, rather than the 21 it currently has.(Éüß 8Á©†ÎŒ.
+@
+java:S1309"#Suppressing warnings is not allowed(‚—ğ²8Ş—åÍŒ.
+B
+java:S1166"%Either log or rethrow this exception.(ÈÄï$8ó€Ú‹‘.

@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2b755e9-5e0c-4feb-8bf6-9a26b85ae76e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/validator/PaymentValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/validator/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/validator/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e5b2ba1de3e25c2703e1861e7561c6da8e2c107" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e5b2ba1de3e25c2703e1861e7561c6da8e2c107" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/payments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/repository/PaymentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/repository/PaymentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/PizzaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/service/PizzaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +32,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,6 +67,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -59,32 +77,89 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="pizzashop.service" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\PizzaShop\src\main\resources\fxml" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pizzashop.repository" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\PizzaShop" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="pizzashop.repository" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\PizzaShop\src\main\resources\fxml" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.PizzaShop [exec:java]">
+    <configuration name="PizzaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PizzaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.service" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaServiceTest.paymentType_test5_ECP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PizzaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.service" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest" />
+      <option name="METHOD_NAME" value="paymentType_test5_ECP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tags (BVA )" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PizzaShop" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.service" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="tags" />
+      <option name="PARAMETERS" value="" />
+      <tag value="BVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tags (ECP )" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PizzaShop" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.service" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="tags" />
+      <option name="PARAMETERS" value="" />
+      <tag value="ECP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PizzaShop [exec:java]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -111,6 +186,21 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.Tags (ECP )" />
+      <item itemvalue="JUnit.PizzaServiceTest.paymentType_test5_ECP" />
+      <item itemvalue="JUnit.Tags (BVA )" />
+      <item itemvalue="Maven.PizzaShop [exec:java]" />
+      <item itemvalue="JUnit.PizzaServiceTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Tags (BVA )" />
+        <item itemvalue="JUnit.PizzaServiceTest" />
+        <item itemvalue="JUnit.Tags (ECP )" />
+        <item itemvalue="JUnit.PizzaServiceTest.paymentType_test5_ECP" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -145,6 +235,7 @@
       <workItem from="1584521564346" duration="9000" />
       <workItem from="1584523652240" duration="772000" />
       <workItem from="1585058229677" duration="1491000" />
+      <workItem from="1585131093948" duration="12947000" />
     </task>
     <servers />
   </component>
@@ -169,11 +260,23 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="271" y="0" key="#PizzaShop_[exec:java]/0.0.1280.680@0.0.1280.680" timestamp="1581688049207" />
-    <state x="536" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1583858819739">
+    <state x="62" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585144417487">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="62" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585144417487" />
+    <state x="527" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585141300957">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="527" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1585141300957" />
+    <state x="536" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1585135124111">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="447" y="35" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1581861630816" />
-    <state x="536" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583858819739" />
+    <state x="536" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585135124111" />
+    <state x="499" y="188" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1585133244544">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1585133244544" />
     <state x="352" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581861136752">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -187,26 +290,42 @@
     </state>
     <state x="422" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581865432079" />
     <state x="506" y="121" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584013086415" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584014854218">
+    <state width="1493" height="228" key="GridCell.Tab.0.bottom" timestamp="1585145087368">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584014854218" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584014854218">
+    <state width="1493" height="228" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585145087368" />
+    <state width="1493" height="228" key="GridCell.Tab.0.center" timestamp="1585145087367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584014854218" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584014854218">
+    <state width="1493" height="228" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585145087367" />
+    <state width="1493" height="228" key="GridCell.Tab.0.left" timestamp="1585145087367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584014854218" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584014854218">
+    <state width="1493" height="228" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585145087367" />
+    <state width="1493" height="228" key="GridCell.Tab.0.right" timestamp="1585145087367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584014854218" />
+    <state width="1493" height="228" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585145087367" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1585145087362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585145087362" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1585145087362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585145087362" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1585145087362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585145087362" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1585145087362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585145087362" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1583939632489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -215,6 +334,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="351" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582489803750" />
+    <state x="540" y="131" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585133451174">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="131" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1585133451174" />
     <state width="300" height="120" key="javadoc.popup.new" timestamp="1581868634597">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

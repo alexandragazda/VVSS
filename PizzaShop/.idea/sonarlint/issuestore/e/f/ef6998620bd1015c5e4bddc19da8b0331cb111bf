@@ -1,3 +1,7 @@
 
 E
 java:S1309"#Suppressing warnings is not allowed(ÃõÚéøÿÿÿÿ8¸Ó ÌŒ.
+B
+java:S3010"%Remove this assignment of "filename".(Òİ™¬8Éº™‘.
+R
+java:S2209"5Change this instance-reference to a static reference.(Òİ™¬8Éº™‘.

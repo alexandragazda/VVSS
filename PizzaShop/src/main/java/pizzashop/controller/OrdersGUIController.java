@@ -19,6 +19,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 
 import pizzashop.model.MenuDataModel;
+import pizzashop.model.validator.ValidationException;
 import pizzashop.service.PaymentAlert;
 import pizzashop.service.PizzaService;
 
@@ -122,8 +123,13 @@ public class OrdersGUIController {
             orderStatus.setText("Total amount: " + getTotalAmount());
             LOGGER.info("--------------------------");LOGGER.info("Table: " + tableNumber);
             LOGGER.info("Total: " + getTotalAmount());LOGGER.info("--------------------------");
-            PaymentAlert pay = new PaymentAlert(service);
-            pay.showPaymentAlert(tableNumber, getTotalAmount()); });
+            try {
+                PaymentAlert pay = new PaymentAlert(service);
+                pay.showPaymentAlert(tableNumber, getTotalAmount());
+            }catch (ValidationException ex){
+                LOGGER.error(ex.getMessage());
+            }
+        });
     }
 
     public void initialize(){
