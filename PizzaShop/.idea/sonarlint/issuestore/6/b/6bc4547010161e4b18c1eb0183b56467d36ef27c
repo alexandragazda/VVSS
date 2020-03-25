@@ -1,0 +1,29 @@
+
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(âç¦Ç8î£¸‹‘.
+V
+java:S4973"9Use the "equals" method if value comparison was intended.(âç¦Ç8î£¸‹‘.
+f
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(Àêøÿÿÿÿ8ª‹‘.
+f
+java:S1120"DMake this line start after 6 spaces to indent the code consistently.(èÀİ‘şÿÿÿÿ8î£¸‹‘.
+`
+java:S1120
+"DMake this line start after 6 spaces to indent the code consistently.(Ù¨88¶’±‹‘.
+f
+java:S1120"DMake this line start after 6 spaces to indent the code consistently.(¨§©ùÿÿÿÿ8ˆı´‹‘.
+^
+java:S1106	"AMove this left curly brace to the beginning of next line of code.(åòúÿ8¶’±‹‘.
+f
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(‰œòùÿÿÿÿ8 èª‹‘.
+c
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ïÎ¾­şÿÿÿÿ8ˆı´‹‘.
+n	java:S109	"RAssign this magic number 8 to a well-named constant, and use the constant instead.(åòúÿ8¶’±‹‘.
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Ø±˜—ÿÿÿÿÿ
+a
+java:S1120"DMake this line start after 6 spaces to indent the code consistently.(©ì²8¶’±‹‘.
+c
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Àêøÿÿÿÿ8ª‹‘.
+c
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ŞÜÖµùÿÿÿÿ8¶’±‹‘.

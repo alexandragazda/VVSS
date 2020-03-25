@@ -17,12 +17,14 @@ import java.util.StringTokenizer;
 
 @SuppressWarnings({"java:S1106","java:S1120","java:S1108","java:S1943"})
 public class PaymentRepository {
-    private static String filename = "data/payments.txt";
+
+   private static String filename = "";
     private static  final Logger LOGGER=Logger.getLogger(PaymentRepository.class);
 
     private List<Payment> paymentList;
 
-    public PaymentRepository(){
+    public PaymentRepository(String filename){
+        this.filename=filename;
         this.paymentList = new ArrayList<>();
         readPayments();
     }
@@ -40,6 +42,7 @@ public class PaymentRepository {
             LOGGER.error(e);
         }
     }
+
 
     private static Payment getPayment(String line){
         if (line==null|| "".equals(line)){
