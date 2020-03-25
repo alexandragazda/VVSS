@@ -36,7 +36,6 @@ class PizzaServiceTest {
     static void end(){
         try(BufferedWriter bw=new BufferedWriter(new FileWriter("src/test/resources/data/paymentsTest"))){
             bw.write("");
-            System.out.println("da");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -45,15 +44,13 @@ class PizzaServiceTest {
     @BeforeEach
     void setUp(){
         initSize=pizzaService.getPayments().size();
-        System.out.println(initSize);
-
     }
 
-    @DisplayName("ECP-valid(table number)")
     @Test
+    @DisplayName("ECP-valid1")
     @Order(1)
     @Tag("ECP")
-    void tableNr_test1_ECP() {
+    void test1_ECP() {
         try {
             pizzaService.addPayment(4, PaymentType.Card, 15);
             assertTrue(initSize + 1 == pizzaService.getPayments().size());
@@ -61,12 +58,25 @@ class PizzaServiceTest {
     }
 
     @Test
-    @DisplayName("ECP-non-valid1(table number)")
+    @DisplayName("ECP-non-valid1")
     @Order(3)
     @Tag("ECP")
-    void tableNr_test2_ECP(){
+    void test2_ECP(){
         try {
-            pizzaService.addPayment(0, PaymentType.Card, 15);
+            pizzaService.addPayment(0, PaymentType.Card, -50);
+        }catch (ValidationException ex){
+            assertTrue(ex.getMessage().equals("Table number must be in [1,8]!Amount must be grater than 0!"));
+            assertTrue(initSize==pizzaService.getPayments().size());
+        }
+    }
+
+    @Test
+    @DisplayName("ECP-non-valid2")
+    @Order(4)
+    @Tag("ECP")
+    void test3_ECP(){
+        try {
+            pizzaService.addPayment(10, PaymentType.Card, 60.5);
         }catch (ValidationException ex){
             assertTrue(ex.getMessage().equals("Table number must be in [1,8]!"));
             assertTrue(initSize==pizzaService.getPayments().size());
@@ -74,26 +84,12 @@ class PizzaServiceTest {
     }
 
     @Test
-    @DisplayName("ECP-non-valid2(table number)")
-    @Order(4)
-    @Tag("ECP")
-    void tableNr_test3_ECP(){
-        try {
-            pizzaService.addPayment(9, PaymentType.Card, 15);
-        }catch (ValidationException ex){
-            assertTrue(ex.getMessage().equals("Table number must be in [1,8]!"));
-            assertTrue(initSize==pizzaService.getPayments().size());
-        }
-    }
-
-    @DisplayName("ECP-valid(payment type)")
-    @ParameterizedTest
-    @ValueSource(ints = {0,1})
+    @DisplayName("ECP-valid2")
     @Order(2)
     @Tag("ECP")
-    void paymentType_test4_ECP(Integer myInt) {
+    void test4_ECP() {
         try {
-            pizzaService.addPayment(1, PaymentType.values()[myInt], 15);
+            pizzaService.addPayment(1, PaymentType.Cash, 40);
             assertTrue(initSize + 1 == pizzaService.getPayments().size());
         }catch (ValidationException ex) { }
     }

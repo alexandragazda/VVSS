@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2b755e9-5e0c-4feb-8bf6-9a26b85ae76e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/validator/PaymentValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/validator/ValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/validator/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e5b2ba1de3e25c2703e1861e7561c6da8e2c107" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e5b2ba1de3e25c2703e1861e7561c6da8e2c107" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/model/validator/PaymentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/validator/PaymentValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/payments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/repository/PaymentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/repository/PaymentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/PizzaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/service/PizzaService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/paymentsTest" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/paymentsTest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pizzashop/service/PizzaServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pizzashop/service/PizzaServiceTest.class" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +78,19 @@
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\PizzaShop" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.PizzaShop [exec:java]">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Tags (ECP )">
     <configuration name="PizzaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaShop" />
       <extension name="coverage">
@@ -124,7 +124,6 @@
     </configuration>
     <configuration name="Tags (BVA )" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaShop" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pizzashop.service.*" />
@@ -143,7 +142,6 @@
     </configuration>
     <configuration name="Tags (ECP )" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaShop" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pizzashop.service.*" />
@@ -190,14 +188,14 @@
       <item itemvalue="JUnit.Tags (ECP )" />
       <item itemvalue="JUnit.PizzaServiceTest.paymentType_test5_ECP" />
       <item itemvalue="JUnit.Tags (BVA )" />
-      <item itemvalue="Maven.PizzaShop [exec:java]" />
       <item itemvalue="JUnit.PizzaServiceTest" />
+      <item itemvalue="Maven.PizzaShop [exec:java]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tags (BVA )" />
-        <item itemvalue="JUnit.PizzaServiceTest" />
         <item itemvalue="JUnit.Tags (ECP )" />
+        <item itemvalue="JUnit.PizzaServiceTest" />
+        <item itemvalue="JUnit.Tags (BVA )" />
         <item itemvalue="JUnit.PizzaServiceTest.paymentType_test5_ECP" />
       </list>
     </recent_temporary>
@@ -236,6 +234,7 @@
       <workItem from="1584523652240" duration="772000" />
       <workItem from="1585058229677" duration="1491000" />
       <workItem from="1585131093948" duration="12947000" />
+      <workItem from="1585145314040" duration="4353000" />
     </task>
     <servers />
   </component>
