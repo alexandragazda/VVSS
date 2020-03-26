@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e2b755e9-5e0c-4feb-8bf6-9a26b85ae76e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/model/validator/PaymentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/validator/PaymentValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data/paymentsTest" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/paymentsTest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pizzashop/service/PizzaServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pizzashop/service/PizzaServiceTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Tags (ECP )">
+  <component name="RunManager" selected="JUnit.Tags (BVA )">
     <configuration name="PizzaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaShop" />
       <extension name="coverage">
@@ -193,9 +190,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tags (BVA )" />
         <item itemvalue="JUnit.Tags (ECP )" />
         <item itemvalue="JUnit.PizzaServiceTest" />
-        <item itemvalue="JUnit.Tags (BVA )" />
         <item itemvalue="JUnit.PizzaServiceTest.paymentType_test5_ECP" />
       </list>
     </recent_temporary>
@@ -234,7 +231,8 @@
       <workItem from="1584523652240" duration="772000" />
       <workItem from="1585058229677" duration="1491000" />
       <workItem from="1585131093948" duration="12947000" />
-      <workItem from="1585145314040" duration="4353000" />
+      <workItem from="1585145314040" duration="4656000" />
+      <workItem from="1585219329252" duration="6661000" />
     </task>
     <servers />
   </component>

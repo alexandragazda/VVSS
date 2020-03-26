@@ -59,20 +59,20 @@ class PizzaServiceTest {
 
     @Test
     @DisplayName("ECP-non-valid1")
-    @Order(3)
+    @Order(2)
     @Tag("ECP")
     void test2_ECP(){
         try {
-            pizzaService.addPayment(0, PaymentType.Card, -50);
+            pizzaService.addPayment(0, PaymentType.Card, 50);
         }catch (ValidationException ex){
-            assertTrue(ex.getMessage().equals("Table number must be in [1,8]!Amount must be grater than 0!"));
+            assertTrue(ex.getMessage().equals("Table number must be in [1,8]!"));
             assertTrue(initSize==pizzaService.getPayments().size());
         }
     }
 
     @Test
     @DisplayName("ECP-non-valid2")
-    @Order(4)
+    @Order(3)
     @Tag("ECP")
     void test3_ECP(){
         try {
@@ -84,79 +84,81 @@ class PizzaServiceTest {
     }
 
     @Test
-    @DisplayName("ECP-valid2")
-    @Order(2)
+    @DisplayName("ECP-non-valid3")
+    @Order(4)
     @Tag("ECP")
-    void test4_ECP() {
+    void test4_ECP(){
         try {
-            pizzaService.addPayment(1, PaymentType.Cash, 40);
-            assertTrue(initSize + 1 == pizzaService.getPayments().size());
-        }catch (ValidationException ex) { }
+            pizzaService.addPayment(4, PaymentType.Card, 0);
+        }catch (ValidationException ex){
+            assertTrue(ex.getMessage().equals("Amount must be grater than 0!"));
+            assertTrue(initSize==pizzaService.getPayments().size());
+        }
     }
 
 
-    @DisplayName("BVA-valid(table number)")
+
+    @DisplayName("BVA-valid1")
     @ParameterizedTest
     @ValueSource(ints = {1,2,7,8})
     @Order(5)
     @Tag("BVA")
-    void tableNr_test1_BVA(Integer myInt) {
+    void test1_BVA(Integer myInt) {
         try {
-            pizzaService.addPayment(myInt, PaymentType.Card, 15);
+            pizzaService.addPayment(myInt, PaymentType.Card, 10);
             assertTrue(initSize + 1 == pizzaService.getPayments().size());
         } catch (ValidationException ex) { }
     }
 
-    @DisplayName("BVA-non-valid(table number)")
+    @DisplayName("BVA-non-valid1")
     @ParameterizedTest
     @ValueSource(ints = {0,9})
     @Order(7)
     @Tag("BVA")
-    void tableNr_test2_BVA(Integer myInt) {
+    void test2_BVA(Integer myInt) {
         try {
-            pizzaService.addPayment(myInt, PaymentType.Card, 15);
+            pizzaService.addPayment(myInt, PaymentType.Card, 10);
         } catch (ValidationException ex) {
             assertTrue(ex.getMessage().equals("Table number must be in [1,8]!"));
             assertTrue(initSize == pizzaService.getPayments().size());
         }
     }
 
-    @DisplayName("BVA-valid(amount)")
+    @DisplayName("BVA-valid2")
     @ParameterizedTest
     @ValueSource(doubles = {0.01,0.02,Double.MAX_VALUE-0.01,Double.MAX_VALUE})
     @Order(6)
     @Tag("BVA")
-    void amount_test3_BVA(Double myDouble) {
+    void test3_BVA(Double myDouble) {
         try {
-            pizzaService.addPayment(1, PaymentType.Card, myDouble);
+            pizzaService.addPayment(4, PaymentType.Card, myDouble);
             assertTrue(initSize + 1 == pizzaService.getPayments().size());
         } catch (ValidationException ex) { }
     }
 
-    @DisplayName("BVA-non-valid1(amount)")
+    @DisplayName("BVA-non-valid2")
     @Order(8)
     @Tag("BVA")
     @Test
-    void amount_test4_BVA() {
+    void test4_BVA() {
         try {
-            pizzaService.addPayment(1, PaymentType.Card, 0);
+            pizzaService.addPayment(4, PaymentType.Card, 0);
         } catch (ValidationException ex) {
             assertTrue(initSize == pizzaService.getPayments().size());
             assertTrue(ex.getMessage().equals("Amount must be grater than 0!"));
         }
     }
 
-    @DisplayName("BVA-non-valid2(amount)")
+    @DisplayName("BVA-non-valid3")
     @Disabled
     @Tag("BVA")
     @Test
     //disabled until we find out what is the next value for Double.MAX_VALUE
-    void amount_test7_BVA() {
+    void test5_BVA() {
         try {
-            pizzaService.addPayment(1, PaymentType.Card, Double.MAX_VALUE+1);
+            pizzaService.addPayment(4, PaymentType.Card, Double.MAX_VALUE+0.01);
         } catch (ValidationException ex) {
             assertTrue(initSize == pizzaService.getPayments().size());
-            assertTrue(ex.getMessage().equals("Amount must be grater than 0!"));
         }
     }
 
