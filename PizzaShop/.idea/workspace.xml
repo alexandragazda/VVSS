@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2b755e9-5e0c-4feb-8bf6-9a26b85ae76e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Docs/Lab02/Lab02_BBT_TCs_Form.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../Docs/Lab02/Lab02_BBT_TCs_Form.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest_BBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/PizzaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/service/PizzaService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data/paymentsTest" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/paymentsTest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pizzashop/service/PizzaServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest_WBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest_WBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/paymentsTest-WBT" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/paymentsTest-WBT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/PizzaShop.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/PizzaShop.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/paymentsTest-WBT" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/paymentsTest-WBT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pizzashop/service/PizzaServiceTest_WBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pizzashop/service/PizzaServiceTest_WBT.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,18 +81,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\PizzaShop\src\main\resources\fxml" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="JUnit.PizzaServiceTest_WBT">
     <configuration name="PizzaServiceTest_BBT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -270,6 +254,7 @@
       <workItem from="1585992340881" duration="79000" />
       <workItem from="1586422231148" duration="6311000" />
       <workItem from="1586433832736" duration="2791000" />
+      <workItem from="1586437017889" duration="1664000" />
     </task>
     <servers />
   </component>
@@ -298,10 +283,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="62" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585144417487" />
-    <state x="527" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585141300957">
+    <state x="527" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586438497693">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="527" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1585141300957" />
+    <state x="527" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1586438497693" />
     <state x="536" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1585135124111">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -324,26 +309,26 @@
     </state>
     <state x="422" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581865432079" />
     <state x="506" y="121" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584013086415" />
-    <state width="1493" height="228" key="GridCell.Tab.0.bottom" timestamp="1585145087368">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1586438573212">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1493" height="228" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585145087368" />
-    <state width="1493" height="228" key="GridCell.Tab.0.center" timestamp="1585145087367">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586438573212" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1586438573212">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1493" height="228" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585145087367" />
-    <state width="1493" height="228" key="GridCell.Tab.0.left" timestamp="1585145087367">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586438573212" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1586438573212">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1493" height="228" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585145087367" />
-    <state width="1493" height="228" key="GridCell.Tab.0.right" timestamp="1585145087367">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586438573212" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1586438573212">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1493" height="228" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585145087367" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586438573212" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1585145087362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
