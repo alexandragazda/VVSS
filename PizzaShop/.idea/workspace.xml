@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e2b755e9-5e0c-4feb-8bf6-9a26b85ae76e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Docs/Lab02/Lab02_BBT_TCs_Form.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../Docs/Lab02/Lab02_BBT_TCs_Form.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docs/Lab02/Prj233_test_spec-2020-03-26.doc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest_BBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/PizzaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/service/PizzaService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/data/paymentsTest" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/paymentsTest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pizzashop/service/PizzaServiceTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,13 +21,17 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\Alexandra\Documents\GitHub\VVSS\PizzaShop\Docs\Lab03" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -55,26 +64,26 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CinemaBookingSystem/cinema-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Docs/Lab03" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="pizzashop.service" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\PizzaShop\src\main\resources\fxml" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="pizzashop.repository" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\PizzaShop" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pizzashop.repository" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\PizzaShop\src\main\resources\fxml" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -89,23 +98,44 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Tags (ECP )">
-    <configuration name="PizzaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PizzaServiceTest_WBT">
+    <configuration name="PizzaServiceTest_BBT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaShop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pizzashop.service.*" />
+          <option name="PATTERN" value="pizzashop.service.PizzaServiceTest_BBT" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pizzashop.service" />
-      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest_BBT" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaServiceTest.paymentType_test5_ECP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PizzaServiceTest_WBT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PizzaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="pizzashop.service.PizzaService" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.service" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest_WBT" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaServiceTest_WBT.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaShop" />
       <extension name="coverage">
         <pattern>
@@ -114,14 +144,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pizzashop.service" />
-      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest" />
-      <option name="METHOD_NAME" value="paymentType_test5_ECP" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest_WBT" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tags (BVA )" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PizzaServiceTest_WBT.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaShop" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +160,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pizzashop.service" />
-      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="tags" />
-      <option name="PARAMETERS" value="" />
-      <tag value="BVA" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest_WBT" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,7 +171,7 @@
       <module name="PizzaShop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pizzashop.service.*" />
+          <option name="PATTERN" value="pizzashop.service.PizzaServiceTest_BBT" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,18 +212,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.PizzaServiceTest_BBT" />
       <item itemvalue="JUnit.Tags (ECP )" />
-      <item itemvalue="JUnit.PizzaServiceTest.paymentType_test5_ECP" />
-      <item itemvalue="JUnit.Tags (BVA )" />
-      <item itemvalue="JUnit.PizzaServiceTest" />
+      <item itemvalue="JUnit.PizzaServiceTest_WBT.test1" />
+      <item itemvalue="JUnit.PizzaServiceTest_WBT" />
+      <item itemvalue="JUnit.PizzaServiceTest_WBT.test2" />
       <item itemvalue="Maven.PizzaShop [exec:java]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PizzaServiceTest_WBT" />
+        <item itemvalue="JUnit.PizzaServiceTest_WBT.test2" />
+        <item itemvalue="JUnit.PizzaServiceTest_WBT.test1" />
+        <item itemvalue="JUnit.PizzaServiceTest_BBT" />
         <item itemvalue="JUnit.Tags (ECP )" />
-        <item itemvalue="JUnit.PizzaServiceTest" />
-        <item itemvalue="JUnit.Tags (BVA )" />
-        <item itemvalue="JUnit.PizzaServiceTest.paymentType_test5_ECP" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +268,8 @@
       <workItem from="1585825470452" duration="209000" />
       <workItem from="1585911295398" duration="2564000" />
       <workItem from="1585992340881" duration="79000" />
+      <workItem from="1586422231148" duration="6311000" />
+      <workItem from="1586433832736" duration="2791000" />
     </task>
     <servers />
   </component>
@@ -348,6 +380,12 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="75" y="50" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1581688763312" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PizzaShop$PizzaServiceTest_WBT.ic" NAME="PizzaServiceTest_WBT Coverage Results" MODIFIED="1586435786011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pizzashop.service.*</FILTER>
+      <FILTER>pizzashop.service.PizzaService</FILTER>
+    </SUITE>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>

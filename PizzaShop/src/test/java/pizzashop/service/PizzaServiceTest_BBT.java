@@ -17,12 +17,12 @@ import java.io.IOException;
 import static org.junit.jupiter.api.Assertions.*;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-class PizzaServiceTest {
+class PizzaServiceTest_BBT {
 
-    static private MenuRepository menuRepository;
-    static private PaymentRepository paymentRepository;
-    static private PizzaService pizzaService;
-    static  private  Integer initSize;
+    private static MenuRepository menuRepository;
+    private static PaymentRepository paymentRepository;
+    private static PizzaService pizzaService;
+    private static  Integer initSize;
 
     @BeforeAll
     static void init(){

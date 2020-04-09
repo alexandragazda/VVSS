@@ -33,18 +33,25 @@ public class PizzaService {
         payRepo.add(payment);
     }
 
-    public double getTotalAmount(PaymentType type){
-        double total=0.0F;
-        List<Payment> paymentList=getPayments();
-        if (paymentList.isEmpty()){
-            return total;
+    public double getTotalAmount(PaymentType type){                     // entry
+        if(type == null){                                               // 1
+            throw new ServiceException("Type has to be specified!");    // 2
         }
-        for (Payment p:paymentList){
-            if (p.getType()==type) {
-                total += p.getAmount();
+
+        double total=0.0F;                                              // 3
+        List<Payment> paymentList=getPayments();                        // 3
+
+        if (paymentList.isEmpty()){                                     // 4
+            return total;                                               // 8
+        }
+
+        for (Payment p:paymentList){                                    // 5
+            if (p.getType()==type) {                                    // 6
+                total += p.getAmount();                                 // 7
             }
         }
-        return total;
-    }
+
+        return total;                                                   // 8
+    }                                                                   // exit
 
 }
