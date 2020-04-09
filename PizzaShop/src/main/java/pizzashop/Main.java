@@ -16,6 +16,7 @@ import pizzashop.model.PaymentType;
 import pizzashop.repository.MenuRepository;
 import pizzashop.repository.PaymentRepository;
 import pizzashop.service.PizzaService;
+import pizzashop.service.ServiceException;
 
 import java.util.Optional;
 
@@ -43,8 +44,14 @@ public class Main extends Application {
                     "Would you like to exit the Main window?", ButtonType.YES, ButtonType.NO);
             Optional<ButtonType> result = exitAlert.showAndWait();
             if (result.get() == ButtonType.YES){
-                LOGGER.info("Incasari cash: "+service.getTotalAmount(PaymentType.Cash));
-                LOGGER.info("Incasari card: "+service.getTotalAmount(PaymentType.Card));primaryStage.close();
+                try {
+                    LOGGER.info("Incasari cash: " + service.getTotalAmount(PaymentType.Cash));
+                    LOGGER.info("Incasari card: " + service.getTotalAmount(PaymentType.Card));
+                    primaryStage.close();
+                }
+                catch (ServiceException ex){
+                    LOGGER.info(ex.getMessage());
+                }
             }
             // consume event
             else if (result.get() == ButtonType.NO){ event.consume(); }
