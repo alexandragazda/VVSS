@@ -21,8 +21,8 @@ class PizzaServiceTest_WBT {
     private static PizzaService pizzaServiceEmptyFile;
     private static PizzaService pizzaService;
     private static final String SERVICEEXEPTIONMSG="Type has to be specified!";
-    private static final Double totalAmountCard = 170.0;
-    private static final Double totalAmountCash = 221.0;
+    private static final Double totalAmountCard = 50.5;
+    private static final Double totalAmountCash = 130.0;
 
     @BeforeAll
     static void init(){
