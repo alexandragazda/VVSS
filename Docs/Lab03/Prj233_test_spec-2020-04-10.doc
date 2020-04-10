@@ -12,7 +12,7 @@
 <p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo" height="53" src="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></div>
 <div class="doc_title"><p>Test Specification</p></div>
 <div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Prj233<br>Test Suite: Prj233 - gair2304_WBT</p></div>
-<div class="summary"><p id="printedby">Printed by TestLink on 09/04/2020</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 10/04/2020</p></div>
 <div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
 <h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><b><p style="padding-left: 20px;"><a href="#toc_1">1. gair2304_WBT</a></p></b>
 <p style="padding-left: 45px;"><a href="#toc_tc44522">Prj233-119: F02_TC01</a></p><p style="padding-left: 45px;"><a href="#toc_tc44524">Prj233-120: F02_TC02</a></p><p style="padding-left: 45px;"><a href="#toc_tc44526">Prj233-121: F02_TC03</a></p><p style="padding-left: 45px;"><a href="#toc_tc44528">Prj233-122: F02_TC04</a></p></div><h1 class="doclevel" >Scope</h1>
@@ -53,13 +53,13 @@
 <a name="toc_tc44526"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj233-121: F02_TC03</th></tr>
 <tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="2">gair2304</td></tr>
 <tr><td colspan="3"><span class="label">Summary:</span><br /><p>
-	At least one payment in the list does not have the specified payment type.</p>
+	None of the payments in the list has the specified payment type.</p>
 </td></tr><tr><td colspan="3"><span class="label">Preconditions:</span><br /><p>
 	Payment type must be CASH or CARD.</p>
 </td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Automated</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
-<tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" >test4</td></tr>
+<tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" >test3</td></tr>
 <tr><td > name of the autotest class:</td><td  colspan = "2" ></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">gair2304_F02:  Lab3<br /></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
@@ -74,7 +74,7 @@
 </td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Automated</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
-<tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" >test3</td></tr>
+<tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" >test4</td></tr>
 <tr><td > name of the autotest class:</td><td  colspan = "2" ></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">gair2304_F02:  Lab3<br /></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>

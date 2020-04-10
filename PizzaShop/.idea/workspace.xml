@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2b755e9-5e0c-4feb-8bf6-9a26b85ae76e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Docs/Lab03/Lab03_WBT_TCs_Form.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../Docs/Lab03/Lab03_WBT_TCs_Form.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest_BBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest_BBT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest_WBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest_WBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/paymentsTest" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/paymentsTest-BBT" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/data/paymentsTest-WBT" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/paymentsTest-WBT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/PizzaShop.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/PizzaShop.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/paymentsTestEmpty-WBT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/paymentsTest" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/data/paymentsTest-WBT" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/paymentsTest-WBT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/paymentsTestEmpty-WBT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pizzashop/service/PizzaServiceTest_BBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pizzashop/service/PizzaServiceTest_BBT.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pizzashop/service/PizzaServiceTest_WBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pizzashop/service/PizzaServiceTest_WBT.class" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +68,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Docs/Lab03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CinemaBookingSystem/cinema-server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
@@ -81,6 +89,18 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\PizzaShop\src\main\resources\fxml" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="JUnit.PizzaServiceTest_WBT">
     <configuration name="PizzaServiceTest_BBT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -151,20 +171,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tags (ECP )" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PizzaServiceTest_WBT.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaShop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pizzashop.service.PizzaServiceTest_BBT" />
+          <option name="PATTERN" value="pizzashop.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pizzashop.service" />
-      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="tags" />
-      <option name="PARAMETERS" value="" />
-      <tag value="ECP" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest_WBT" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,19 +215,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.PizzaServiceTest_BBT" />
-      <item itemvalue="JUnit.Tags (ECP )" />
       <item itemvalue="JUnit.PizzaServiceTest_WBT.test1" />
       <item itemvalue="JUnit.PizzaServiceTest_WBT" />
       <item itemvalue="JUnit.PizzaServiceTest_WBT.test2" />
       <item itemvalue="Maven.PizzaShop [exec:java]" />
+      <item itemvalue="JUnit.PizzaServiceTest_WBT.test3" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PizzaServiceTest_WBT" />
-        <item itemvalue="JUnit.PizzaServiceTest_WBT.test2" />
-        <item itemvalue="JUnit.PizzaServiceTest_WBT.test1" />
         <item itemvalue="JUnit.PizzaServiceTest_BBT" />
-        <item itemvalue="JUnit.Tags (ECP )" />
+        <item itemvalue="JUnit.PizzaServiceTest_WBT.test1" />
+        <item itemvalue="JUnit.PizzaServiceTest_WBT.test3" />
+        <item itemvalue="JUnit.PizzaServiceTest_WBT.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -255,6 +273,7 @@
       <workItem from="1586422231148" duration="6311000" />
       <workItem from="1586433832736" duration="2791000" />
       <workItem from="1586437017889" duration="1664000" />
+      <workItem from="1586509416092" duration="6092000" />
     </task>
     <servers />
   </component>
@@ -367,7 +386,7 @@
     <state x="75" y="50" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1581688763312" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PizzaShop$PizzaServiceTest_WBT.ic" NAME="PizzaServiceTest_WBT Coverage Results" MODIFIED="1586435786011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/PizzaShop$PizzaServiceTest_WBT.ic" NAME="PizzaServiceTest_WBT Coverage Results" MODIFIED="1586516137243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>pizzashop.service.*</FILTER>
       <FILTER>pizzashop.service.PizzaService</FILTER>
     </SUITE>

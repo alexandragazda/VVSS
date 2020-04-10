@@ -28,13 +28,13 @@ class PizzaServiceTest_BBT {
     static void init(){
         BasicConfigurator.configure();
         menuRepository= new MenuRepository();
-        paymentRepository= new PaymentRepository("data/paymentsTest");
+        paymentRepository= new PaymentRepository("data/paymentsTest-BBT");
         pizzaService= new PizzaService(menuRepository,paymentRepository);
     }
 
     @AfterAll
     static void end(){
-        try(BufferedWriter bw=new BufferedWriter(new FileWriter("src/test/resources/data/paymentsTest"))){
+        try(BufferedWriter bw=new BufferedWriter(new FileWriter("src/test/resources/data/paymentsTest-BBT"))){
             bw.write("");
         } catch (IOException e) {
             e.printStackTrace();
