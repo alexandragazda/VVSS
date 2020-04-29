@@ -27,6 +27,11 @@ public class PizzaService {
 
     public List<Payment> getPayments(){return payRepo.getAll(); }
 
+    public void addPayment(Payment payment){
+        validator.validate(payment);
+        payRepo.add(payment);
+    }
+
     public void addPayment(int table, PaymentType type, double amount){
         Payment payment= new Payment(table, type, amount);
         validator.validate(payment);
