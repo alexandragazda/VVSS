@@ -77,12 +77,17 @@ class PizzaServiceTest_WBT {
 
     @Test
     @DisplayName("WBT-valid3")
-    void test4() {
+    void TC4_cash_card_valid() {
+        //setup
         pizzaService.addPayment(3,PaymentType.Cash,10.0);
         pizzaService.addPayment(2,PaymentType.Card,13.5);
         pizzaService.addPayment(8,PaymentType.Cash,20.0);
 
-        assertTrue(pizzaService.getPayments().size() == 3);
+        //act
+        int size=pizzaService.getPayments().size();
+
+        //assert
+        assertTrue(size == 3);
         assertTrue(pizzaService.getPayments().get(1).getType() == PaymentType.Card);
 
         assertTrue(pizzaService.getTotalAmount(PaymentType.Card) == 13.5);
