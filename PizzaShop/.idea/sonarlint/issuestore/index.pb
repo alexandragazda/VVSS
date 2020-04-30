@@ -35,5 +35,3 @@ p
 @src/main/java/pizzashop/model/validator/ValidationException.java,d\8\d85b41f962515bd36af5170706f388f455228e0a
 m
 =src/main/java/pizzashop/model/validator/PaymentValidator.java,6\b\6bc4547010161e4b18c1eb0183b56467d36ef27c
-e
-5src/test/java/pizzashop/service/PizzaServiceTest.java,f\4\f496bf34deff9b910e5c4b5fdd20fe2b239503b3
