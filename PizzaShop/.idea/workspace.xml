@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2b755e9-5e0c-4feb-8bf6-9a26b85ae76e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f496bf34deff9b910e5c4b5fdd20fe2b239503b3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +77,18 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\PizzaShop\src\main\resources\fxml" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="JUnit.PizzaServiceTestIntegration">
     <configuration name="PaymentRepositoryTestWithMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -189,8 +199,8 @@
       <item itemvalue="JUnit.PizzaServiceTestWithMock" />
       <item itemvalue="JUnit.PaymentRepositoryTestWithMock.test1_getAll" />
       <item itemvalue="JUnit.PaymentRepositoryTestWithMock" />
-      <item itemvalue="Maven.PizzaShop [exec:java]" />
       <item itemvalue="JUnit.PizzaServiceTestIntegration" />
+      <item itemvalue="Maven.PizzaShop [exec:java]" />
     </list>
     <recent_temporary>
       <list>
