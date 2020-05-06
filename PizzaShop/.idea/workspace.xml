@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e2b755e9-5e0c-4feb-8bf6-9a26b85ae76e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/repository/PaymentRepositoryTestWithMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/repository/PaymentRepositoryTestWithMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTestIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTestIntegration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest_BBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest_BBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest_WBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/PizzaServiceTest_WBT.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PizzaServiceTestIntegration">
+  <component name="RunManager" selected="JUnit.PaymentRepositoryTestWithMock">
     <configuration name="PaymentRepositoryTestWithMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaShop" />
       <extension name="coverage">
@@ -102,22 +107,6 @@
       <option name="PACKAGE_NAME" value="pizzashop.repository" />
       <option name="MAIN_CLASS_NAME" value="pizzashop.repository.PaymentRepositoryTestWithMock" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaymentRepositoryTestWithMock.test1_getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PizzaShop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pizzashop.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pizzashop.repository" />
-      <option name="MAIN_CLASS_NAME" value="pizzashop.repository.PaymentRepositoryTestWithMock" />
-      <option name="METHOD_NAME" value="test1_getAll" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,7 +141,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaServiceTestWithMock.test1_add_payment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PizzaServiceTest_BBT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaShop" />
       <extension name="coverage">
         <pattern>
@@ -161,9 +150,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pizzashop.service" />
-      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTestWithMock" />
-      <option name="METHOD_NAME" value="test1_add_payment" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest_BBT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaServiceTest_WBT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PizzaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pizzashop.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.service" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.PizzaServiceTest_WBT" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,20 +198,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PizzaServiceTestWithMock.test1_add_payment" />
       <item itemvalue="JUnit.PizzaServiceTestWithMock" />
-      <item itemvalue="JUnit.PaymentRepositoryTestWithMock.test1_getAll" />
       <item itemvalue="JUnit.PaymentRepositoryTestWithMock" />
       <item itemvalue="JUnit.PizzaServiceTestIntegration" />
       <item itemvalue="Maven.PizzaShop [exec:java]" />
+      <item itemvalue="JUnit.PizzaServiceTest_BBT" />
+      <item itemvalue="JUnit.PizzaServiceTest_WBT" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PizzaServiceTestIntegration" />
         <item itemvalue="JUnit.PaymentRepositoryTestWithMock" />
         <item itemvalue="JUnit.PizzaServiceTestWithMock" />
-        <item itemvalue="JUnit.PaymentRepositoryTestWithMock.test1_getAll" />
-        <item itemvalue="JUnit.PizzaServiceTestWithMock.test1_add_payment" />
+        <item itemvalue="JUnit.PizzaServiceTestIntegration" />
+        <item itemvalue="JUnit.PizzaServiceTest_WBT" />
+        <item itemvalue="JUnit.PizzaServiceTest_BBT" />
       </list>
     </recent_temporary>
   </component>
@@ -260,6 +263,8 @@
       <workItem from="1587125373115" duration="72000" />
       <workItem from="1588154350590" duration="9468000" />
       <workItem from="1588234227917" duration="2850000" />
+      <workItem from="1588280710412" duration="49000" />
+      <workItem from="1588760984934" duration="5155000" />
     </task>
     <servers />
   </component>

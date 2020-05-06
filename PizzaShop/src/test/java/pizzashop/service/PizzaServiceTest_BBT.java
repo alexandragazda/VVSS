@@ -2,14 +2,11 @@ package pizzashop.service;
 
 import org.apache.log4j.BasicConfigurator;
 import org.junit.jupiter.api.*;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ValueSource;
 import pizzashop.model.PaymentType;
 import pizzashop.model.validator.ValidationException;
 import pizzashop.repository.MenuRepository;
 import pizzashop.repository.PaymentRepository;
 
-import java.io.BufferedInputStream;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -96,42 +93,37 @@ class PizzaServiceTest_BBT {
         }
     }
 
-
-
+    @Test
     @DisplayName("BVA-valid1")
-    @ParameterizedTest
-    @ValueSource(ints = {1,2,7,8})
     @Order(5)
     @Tag("BVA")
-    void test1_BVA(Integer myInt) {
+    void test1_BVA() {
         try {
-            pizzaService.addPayment(myInt, PaymentType.Card, 10);
+            pizzaService.addPayment(1, PaymentType.Card, 10);
             assertTrue(initSize + 1 == pizzaService.getPayments().size());
         } catch (ValidationException ex) { }
     }
 
+    @Test
     @DisplayName("BVA-non-valid1")
-    @ParameterizedTest
-    @ValueSource(ints = {0,9})
     @Order(7)
     @Tag("BVA")
-    void test2_BVA(Integer myInt) {
+    void test2_BVA() {
         try {
-            pizzaService.addPayment(myInt, PaymentType.Card, 10);
+            pizzaService.addPayment(0, PaymentType.Card, 10);
         } catch (ValidationException ex) {
             assertTrue(ex.getMessage().equals("Table number must be in [1,8]!"));
             assertTrue(initSize == pizzaService.getPayments().size());
         }
     }
 
+    @Test
     @DisplayName("BVA-valid2")
-    @ParameterizedTest
-    @ValueSource(doubles = {0.01,0.02,Double.MAX_VALUE-0.01,Double.MAX_VALUE})
     @Order(6)
     @Tag("BVA")
-    void test3_BVA(Double myDouble) {
+    void test3_BVA() {
         try {
-            pizzaService.addPayment(4, PaymentType.Card, myDouble);
+            pizzaService.addPayment(4, PaymentType.Card, 0.01);
             assertTrue(initSize + 1 == pizzaService.getPayments().size());
         } catch (ValidationException ex) { }
     }
