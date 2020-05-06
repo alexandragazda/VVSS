@@ -3,7 +3,6 @@ package pizzashop.service;
 import org.apache.log4j.BasicConfigurator;
 import org.junit.jupiter.api.*;
 import pizzashop.model.PaymentType;
-import pizzashop.model.validator.ValidationException;
 import pizzashop.repository.MenuRepository;
 import pizzashop.repository.PaymentRepository;
 
